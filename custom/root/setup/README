@@ -1,0 +1,10 @@
+This folder is part of the ThalOS raspbian distribution. It contains a number of useful files and scripts that are somewhat unique to the ThalOS distribution
+
+- thalos-config.sh
+This script is automatically run the first time root logs in. The script does some post setup steps that could be useful for the user. It configures timezone, console keyboard layout, change hostname, and optimizes the SD Card.
+
+- perm.4000/perm.2000
+ThalOS ships with all the SUID/SGID flags stripped from all files that has them by default. This is a (somewhat paranoid) security design decision to further minimize the attack vectors of the system. The reasoning is that on a router/firewall, the files with SUID/SGID won't be used anyway so it's unnecessary to leave them laying around. All files that has had their SUID/SGID bits turned off is listed in these files in case you want to turn them on again.
+
+- restore-permissions.sh
+This script automates the process of setting SUID/SGID flags on the files listed in perm.4000/perm.2000 so you don't have to do it manually
