@@ -1,0 +1,11 @@
+/bin/ping
+/bin/mount
+/bin/umount
+/bin/ping6
+/usr/lib/pt_chown
+/usr/lib/openssh/ssh-keysign
+/usr/bin/chfn
+/usr/bin/gpasswd
+/usr/bin/passwd
+/usr/bin/chsh
+/usr/bin/newgrp
