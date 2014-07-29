@@ -2,7 +2,7 @@
 *The secure raspberry pi router/firewall project*
 
 ## Introduction
-ThalOS a complete operating system based on the hardfp Raspbian for the Raspberry Pi platform. The goal of ThalOS is to be an extremely small and secure system for use of the Raspberry Pi as a router/firewall. The entire system is around 400 MB and is basically a debootstrapped raspbian installation with some special configurations from raspbian, some tweaked setup and a custom kernel. See the wiki for more documentation.
+ThalOS a complete operating system based on the hardfp Raspbian for the Raspberry Pi platform. The goal of ThalOS is to be an extremely small and secure system for use of the Raspberry Pi as a router/firewall. The entire system is around 400 MB and is basically a debootstrapped raspbian installation with some special configurations from raspbian, some tweaked setup and a custom kernel. See the wiki for more documentation. This repo contains all the modified files used in the making of the distribution.
 
 ## Quickstart
  - Download the latest image from [Sourceforge](https://sourceforge.net/projects/thalos/files/?source=navbar)
